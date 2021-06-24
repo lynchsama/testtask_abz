@@ -1,0 +1,114 @@
+.element,
+.grid,
+.img,
+.job,
+.name, 
+.email,
+.phone{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   background: grey;
+}
+
+
+.img {
+    margin-top: 35px;
+    margin-bottom: 13px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 29px;
+    background-color: #333;
+    width: 904px;
+    margin: 30px auto;
+}
+
+
+.element {
+    overflow: none;
+    position: relative;
+    display: flex;
+    border: 3px solid black;
+    text-align: center;
+    flex-direction: column;
+    padding-right: 25px;
+    padding-left: 25px;
+    align-items: center; 
+    background: white;
+    height: 313px;
+}
+.move{
+    margin-right: 3px;
+}
+.name {
+    text-align: center;
+    position: relative;
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+}
+
+.job {
+    
+    margin-top: 5px;
+    margin-right: 0px;
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.phone{
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 1px;
+}
+
+.email{
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.grid-header{
+    margin-top: 175px;
+}
+
+
+.grid-header h1{
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.grid-header h2{
+    margin-top: -15px;
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.grid-button{
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 30px;
+}
